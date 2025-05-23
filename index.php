@@ -25,12 +25,14 @@
 
 </head>
 <body>
+<header>
 <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo center"><img src="https://nure.ua/wp-content/themes/nure/images/logo.png?v=2.0"></a>
     </div>
 </nav>
-<div class="section no-pad-bot" id="index-banner">
+</header>
+<main class="section no-pad-bot" id="index-banner">
     <div class="container">
         <br><br>
         <h1 class="header center blue-text">Хто ти в світі <a href="nure.ua">ХНУРЕ</a>?</h1>
@@ -77,26 +79,7 @@
         }
         ?>
     </div>
-</div>
-
-<div class="container">
-    <div class="section">
-
-        <!--   Icon Section   -->
-        <div class="row">
-            <div class="col s12 m4">
-            </div>
-
-            <div class="col s12 m4">
-            </div>
-
-            <div class="col s12 m4">
-            </div>
-        </div>
-
-    </div>
-    <br><br>
-</div>
+</main>
 
 <footer class="page-footer blue">
     <div class="container">
@@ -104,8 +87,6 @@
             <div class="col l6 s12">
                 <h5 class="white-text">ХНУРЕ</h5>
                 <p class="grey-text text-lighten-4">Перший серед кращих!</p>
-
-
             </div>
             <div class="col l6 s12">
                 <h5 class="white-text">Контакти приймальної комісії</h5>
@@ -125,7 +106,6 @@
         </div>
     </div>
 </footer>
-
 
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

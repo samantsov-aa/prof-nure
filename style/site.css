@@ -5,10 +5,12 @@ nav{
     padding: 5px;
     z-index: 1000;
 }
-footer{
-    position: fixed;
-    bottom:0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
